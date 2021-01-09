@@ -1,7 +1,7 @@
 # 'brew install'
 brew "htop"
 brew "httpie"
-brew "node"
+brew "neofetch"
 
 # 'brew cask install'
 cask "1password"
