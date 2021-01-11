@@ -6,6 +6,8 @@ brew "neofetch"
 # 'brew cask install'
 cask "1password"
 cask "authy"
+cask "balenaetcher"
+cask "discord"
 cask "google-chrome"
 cask "iterm2"
 cask "istat-menus"
