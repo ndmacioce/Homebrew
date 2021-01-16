@@ -2,6 +2,7 @@
 brew "htop"
 brew "httpie"
 brew "neofetch"
+brew 'wireguard-tools'
 
 # 'brew cask install'
 cask "1password"
