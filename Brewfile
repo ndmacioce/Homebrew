@@ -1,4 +1,8 @@
+# 'brew taps'
+tap "hashicorp/tap"
+
 # 'brew install'
+brew "hashicorp/tap/terraform"
 brew "htop"
 brew "httpie"
 brew "neofetch"
