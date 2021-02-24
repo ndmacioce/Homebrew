@@ -6,10 +6,12 @@ brew "hashicorp/tap/terraform"
 brew "htop"
 brew "httpie"
 brew "neofetch"
+brew "terraform"
 brew 'wireguard-tools'
 
 # 'brew cask install'
 cask "1password"
+cask "alt-tab"
 cask "authy"
 cask "balenaetcher"
 cask "discord"
