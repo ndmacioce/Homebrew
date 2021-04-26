@@ -1,0 +1,10 @@
+# action.yml
+name: 'Hello World'
+description: 'Greet someone and record the time'
+outputs:
+  time: # id of output
+runs:
+  runs-on: 'docker'
+  image: 'homebrew/ubuntu20.04'
+  - run: echo "🎉 The job was automatically triggered
+  
