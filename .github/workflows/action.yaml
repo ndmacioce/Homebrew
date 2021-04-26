@@ -1,9 +1,11 @@
-# action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
-outputs:
-  time: # id of output
-runs:
-  runs-on: 'docker'
-  image: 'homebrew/ubuntu20.04'
-  - run: echo "🎉 The job was automatically triggered
+name: CI
+
+on: [push]
+
+jobs:
+  myjob:
+    runs-on: ubuntu-18.04 # linux required if you want to use docker
+    steps:
+    # Those steps are actions, which may run inside a container
+    - uses: actions/checkout@v1
+    - uses: docker://homebrew/ubuntu20.04
