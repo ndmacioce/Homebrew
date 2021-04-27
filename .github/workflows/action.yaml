@@ -1,0 +1,14 @@
+name: Homebrew Bundler
+
+on: [push]
+
+jobs:
+  myjob:
+    runs-on: ubuntu-18.04 # linux required if you want to use docker
+    steps:
+    # Those steps are actions, which may run inside a container
+    - uses: actions/checkout@v1
+    - uses: docker://homebrew/ubuntu20.04
+    - run: brew --version
+    - run: brew bundle
+    
