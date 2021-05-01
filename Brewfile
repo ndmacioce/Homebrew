@@ -8,7 +8,7 @@ brew "GnuPG"
 brew "hashicorp/tap/terraform"
 brew "htop"
 brew "httpie"
-brew "k3sup"
+# brew "k3sup"  # does not work in Actions yet
 brew "neofetch"
 brew "pinentry"
 brew "pre-commit"
